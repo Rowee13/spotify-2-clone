@@ -9,8 +9,7 @@ import PlayPause from "./PlayPause";
 import { playPause, setActiveSong } from "../redux/features/playerSlice";
 import { useGetTopChartsQuery } from "../redux/services/shazamCore";
 
-import "swiper/swiper.min.css";
-import "swiper/modules/free-mode/free-mode.min.css";
+import "swiper/swiper-bundle.css";
 
 const TopChartCard = ({
   song,
